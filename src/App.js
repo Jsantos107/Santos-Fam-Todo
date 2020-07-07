@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Santos Todo</h1>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+      <div className="App">
+        <header className="header">
+          <img src="./Santos-TLogo.png" alt="SantosTo-Do"/>
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
