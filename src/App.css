@@ -1,1 +1,10 @@
-
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+  }
+  .header img{
+    cursor: pointer;
+    max-width: 150px;
+  }
+  
