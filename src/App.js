@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import HomePage from './components/HomePage';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 class App extends Component {
   render(){
@@ -17,6 +18,7 @@ class App extends Component {
           <main className='main'>
             <Switch>
               <Route exact path='/'>
+                <HomePage />
               </Route>
             </Switch>
           </main>
